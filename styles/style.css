@@ -93,6 +93,42 @@ body{
     font-family: "Euclid";
 }
 
+.achivements{
+    display: flex;
+    justify-content: end;
+    padding-top: 200px;
+}
+
+.achivements__list{
+    list-style: none;
+    display: flex;
+    width: 560px;
+    height: 70px;
+    padding: 0;
+    padding-right: 30px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.achivements__item{
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Euclid";
+    color: #565D66;
+    line-height: 18px;
+}
+
+.bold{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Euclid";
+    color: #000;
+}
+
 @font-face {
     font-family: "Euclid"; 
     src: url("../fonts/Euclid-Circular-A-Light.ttf") format("truetype"); 

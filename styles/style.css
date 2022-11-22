@@ -47,7 +47,7 @@ body{
 }
 
 .header__link:hover{
-    color: #AFAFAF;
+    color: #565D66;
 }
 
 .header__link::before{
@@ -57,7 +57,7 @@ body{
     right: 5%;
 	width: 0;
 	height: 1.5px;
-	background-color: #AFAFAF;
+	background-color: #565D66;
 }
 .header__link:hover:before{
     width: 90%;
@@ -75,7 +75,9 @@ body{
     font-family: "Euclid";
     font-size: 18px;
 }
-
+.header__button:hover{
+    
+}
 .about{
     padding-top: 105px;
 }
@@ -188,6 +190,139 @@ body{
     align-items: center;
 }
 
+.callback{
+    width: 506px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s all;
+}
+
+.callback-active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.overlay{
+    width: 506px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 200%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px); 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding-top: 136px;
+    transition: 1s all;
+}
+
+.overlay-active{
+    left: 0;
+}
+
+.overlay__tittle{
+    width: 340px;
+    height: 129px;
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Euclid";
+    margin: 0;
+}
+
+.gradient{
+    background: linear-gradient(90deg, #E8A43E 0%, #FAFF00 80.73%, #B09494 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient_underline{
+    border: none;
+    border-bottom: 1px solid;
+    border-color: linear-gradient(90deg, #E8A43E 0%, #FAFF00 80.73%, #B09494 99%);
+}
+
+.overlay__subtittle{
+    width: 99%;
+    height: 99px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Euclid";
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.overlay__number{
+    width: 340px;
+    height: 52px;
+    background: #7D7D7D;
+    border: none;
+    margin-top: 50px;
+}
+
+.overlay__caption{
+    width: 502px;
+    height: 74px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Euclid";
+    text-align: center;
+    margin: 0;
+    margin-top: 6px;
+}
+
+.overlay__terms{
+    background: linear-gradient(90deg, #E8A43E 0%, #FAFF00 80.73%, #B09494 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid;
+    border-color: yellow;
+}
+
+.overlay__submit{
+    width: 340px;
+    height: 53px;
+    background: linear-gradient(90deg, #BCC5CE 0%, #929EAD 98%);
+    border: none;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Euclid";
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.overlay__link{
+    color: #fff;
+    font-family: "Euclid";
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 9px;
+}
+
+.overlay__close-btn{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    padding: 309px 0;
+    left: 15px;
+}
+
+.overlay__close-icon{
+    width: 15px;
+    height: 25px;
+}
 @font-face {
     font-family: "Euclid"; 
     src: url("../fonts/Euclid-Circular-A-Light.ttf") format("truetype"); 

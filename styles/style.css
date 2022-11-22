@@ -74,9 +74,11 @@ body{
     color: #fff;
     font-family: "Euclid";
     font-size: 18px;
+    transition: 0.5s;
 }
 .header__button:hover{
-    
+    color: #AFAFAF;   
+    border-radius: 10px;
 }
 .about{
     padding-top: 105px;
@@ -124,8 +126,12 @@ body{
     font-size: 18px;
     font-weight: 500;
     font-family: "Euclid";
+    transition: 0.5s;
 }
-
+.submit:hover{
+    color: #AFAFAF;   
+    border-radius: 10px;
+}
 .achivements{
     display: flex;
     justify-content: end;
@@ -238,14 +244,9 @@ body{
 }
 
 .gradient{
-    background: linear-gradient(90deg, #E8A43E 0%, #FAFF00 80.73%, #B09494 99%);
+    background: linear-gradient(90deg, #9B5E5C, #C3CFE2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-.gradient_underline{
-    border: none;
-    border-bottom: 1px solid;
-    border-color: linear-gradient(90deg, #E8A43E 0%, #FAFF00 80.73%, #B09494 99%);
 }
 
 .overlay__subtittle{
@@ -265,6 +266,20 @@ body{
     background: #7D7D7D;
     border: none;
     margin-top: 50px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Euclid";
+    color: #000;
+    text-align: center;
+    background: linear-gradient(90deg, #E6E9F0 0%, #EEF1F5 100%);
+}
+
+.overlay__number::placeholder{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Euclid";
+    color: #000;
+    text-align: center;
 }
 
 .overlay__caption{
@@ -279,25 +294,29 @@ body{
 }
 
 .overlay__terms{
-    background: linear-gradient(90deg, #E8A43E 0%, #FAFF00 80.73%, #B09494 99%);
+    background: linear-gradient(90deg, #9B5E5C 0%, #C3CFE2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border-bottom: 1px solid;
-    border-color: yellow;
+    border-color: #9B5E5C;
 }
 
 .overlay__submit{
     width: 340px;
     height: 53px;
-    background: linear-gradient(90deg, #BCC5CE 0%, #929EAD 98%);
+    background: linear-gradient(90deg, #CFD9DF 0%, #E2EBF0 100%);
     border: none;
     font-weight: 600;
     font-size: 26px;
     font-family: "Euclid";
     margin: 0px;
     margin-top: 50px;
+    cursor: pointer;
+    transition: 2s ease-in;
 }
-
+.overlay__submit:hover{
+    background: linear-gradient(90deg, #BCC5CE 0%, #929EAD 98%);
+}
 .overlay__link{
     color: #fff;
     font-family: "Euclid";

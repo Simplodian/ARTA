@@ -39,6 +39,33 @@ body{
     font-family: "Euclid";
 }
 
+.header__link{
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    transition: 0.35s;
+}
+
+.header__link:hover{
+    color: #AFAFAF;
+}
+
+.header__link::before{
+    content: '';
+	position: absolute;
+    bottom: -5px;
+    right: 5%;
+	width: 0;
+	height: 1.5px;
+	background-color: #AFAFAF;
+}
+.header__link:hover:before{
+    width: 90%;
+}
+.header__link::before{
+    transition: width 0.35s;
+}
+
 .header__button{
     width: 150px;
     height: 70px;

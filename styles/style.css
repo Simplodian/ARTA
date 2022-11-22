@@ -21,6 +21,10 @@ body{
     border-radius: 50%;
 }
 
+.header__image{
+    border-radius: 50%;
+}
+
 .header__list{
     list-style: none;
     display: flex;
@@ -127,6 +131,34 @@ body{
     font-weight: 700;
     font-family: "Euclid";
     color: #000;
+}
+
+.side-bar{
+    background: #000;
+    width: 70px;
+    height: 140px;
+    position: absolute;
+    left: 0;
+    top: 744px;
+}
+
+.side-bar__line{
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    top: 43%;
+    left: 14%;
+}
+
+.side-bar__item{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @font-face {

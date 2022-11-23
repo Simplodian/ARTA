@@ -71,6 +71,7 @@ body{
     height: 70px;
     background-color: #000;
     border: none;
+    border-radius: 15px 0 0 15px;
     color: #fff;
     font-family: "Euclid";
     font-size: 18px;
@@ -122,6 +123,7 @@ body{
     height: 70px;
     background: #000;
     border: none;
+    border-radius: 15px;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -142,7 +144,7 @@ body{
     list-style: none;
     display: flex;
     width: 560px;
-    height: 70px;
+    height: 65px;
     padding: 0;
     padding-right: 30px;
     margin: 0;
@@ -175,6 +177,7 @@ body{
     position: absolute;
     left: 0;
     top: 744px;
+    border-radius: 0 15px 15px 0;
 }
 
 .side-bar__line{
@@ -186,6 +189,9 @@ body{
     position: absolute;
     top: 43%;
     left: 14%;
+}
+.side-bar__logo{
+    border-radius: 50%;
 }
 
 .side-bar__item{

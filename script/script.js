@@ -1,4 +1,4 @@
-const openOverlayBtn = document.querySelector('.header__button');
+const openOverlayBtn = document.querySelector('.submit');
 const closeOverlayBtn = document.querySelector('.overlay__close-btn');
 const overlay = document.querySelector('.overlay')
 const callback = document.querySelector('.callback')

@@ -76,10 +76,13 @@ body{
     font-family: "Euclid";
     font-size: 18px;
     transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 .header__button:hover{
     color: #AFAFAF;   
-    border-radius: 10px;
 }
 .about{
     padding-top: 105px;

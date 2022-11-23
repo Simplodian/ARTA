@@ -193,6 +193,29 @@ body{
 .side-bar__logo{
     border-radius: 50%;
 }
+.inst{
+    background: url(../icons/insta.svg) no-repeat;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-position: center;
+}
+.pinterest{
+    background: url(../icons/pinterest.svg) no-repeat;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-position: center;
+}
+.inst:hover{
+    background: url(../icons/inst_hover.svg) no-repeat;
+    background-position: center;
+}
+
+.pinterest:hover{
+    background: url(../icons/pinterest_hover.svg) no-repeat;
+    background-position: center;
+}
 
 .side-bar__item{
     width: 70px;

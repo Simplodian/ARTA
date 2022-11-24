@@ -1,15 +1,16 @@
 body{
     margin: 0;
     padding: 0;
+    background: url(../pictures/shape.jpg) no-repeat;
+    background-position: 87% top;
 
 }
 
 .container{
     max-width: 1220px;
     margin: 0 auto;
-    background: url(../pictures/shape.jpg) no-repeat;
-    background-position: 101% top;
 }
+
 .header-wrapper{
     display: flex;
     justify-content: space-between;
@@ -380,6 +381,148 @@ body{
     width: 15px;
     height: 25px;
 }
+
+.b-w__container{
+    max-width: 1440px;
+    margin-top: 170px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.designation{
+    position: relative;
+    background: url(../pictures/b-w_background.jpg) no-repeat;
+    height: 346px;
+    width: 1440px;
+    display: flex;
+    justify-content: end;
+}
+.designation::before{
+    content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .5);
+}
+.designation__text{
+    position: relative;
+    font-family: "Euclid";
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    width: 300px;
+    color: #fff;
+    letter-spacing: 20px;
+}
+
+.b-w__grid{
+    width: 1240px;
+    height: 475px;
+    margin: 0 auto;
+    margin-top: 105px;
+    display: grid;
+    grid-template-columns: 252px 252px 132px 252px 252px;
+    grid-template-areas: 'a b c d e'
+                         'f g g g h';
+    column-gap: 25px;
+    row-gap: 15px;
+                         
+}
+
+.b-w__item{
+    width: 252px;
+    height: 230px;
+}
+.item1{
+    background: url(../pictures/b&w/10-item.png);
+    grid-area: a;
+}
+.item2{
+    background: url(../pictures/b&w/5-item.jpg);
+    grid-area: b;
+}
+.item3{
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    column-gap: 6px;
+    width: 132px;
+    height: 230px;
+}
+
+.b-w__sub-item{
+    width: 40px;
+    height: 230px;
+}
+.sub-item1{
+    background: url(../pictures/b&w/8-item.jpg);
+}
+.sub-item2{
+    background: url(../pictures/b&w/2-item.jpg);
+}
+.sub-item3{
+    background: url(../pictures/b&w/1-item.jpg);
+}
+
+.item4{
+    background: url(../pictures/b&w/6-item.jpg);
+    grid-area: d;
+}
+.item5{
+    background: url(../pictures/b&w/7-item.jpg);
+    grid-area: e;
+}
+.item6{
+    background: url(../pictures/b&w/3-item.jpg);
+    grid-area: f;
+}
+.item7{
+    background: url(../pictures/b&w/9-item.jpg);
+    width: 686px;
+    height: 230px;
+    grid-area: g;
+}
+.item8{
+    background: url(../pictures/b&w/4-item.jpg);
+    grid-area: h;
+}
+
+.central-line{
+    width: 55px;
+    height: 2px;
+    transform: rotate(90deg);
+    background: black;
+    margin-top: 55px;
+}
+
+.social-info{
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: "Euclid";
+}
+
+.social-info__text{
+    font-weight: 100;
+}
+.social-info__link{
+    font-weight: 300;
+    font-style: italic;
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
 @font-face {
     font-family: "Euclid"; 
     src: url("../fonts/Euclid-Circular-A-Light.ttf") format("truetype"); 
@@ -416,4 +559,11 @@ body{
     src: url("../fonts/Euclid-Circular-A-SemiBold-Italic.ttf") format("truetype"); 
     font-style: italic; 
     font-weight: 600; 
+    } 
+
+ @font-face {
+    font-family: "Euclid"; 
+    src: url("../fonts/Euclid-Circular-A-Light-Italic.ttf") format("truetype"); 
+    font-style: italic; 
+    font-weight: 300; 
     } 

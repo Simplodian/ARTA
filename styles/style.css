@@ -382,7 +382,7 @@ body{
     height: 25px;
 }
 
-.b-w__container{
+.b-w-container{
     max-width: 1440px;
     margin-top: 170px;
     background: none;
@@ -398,6 +398,7 @@ body{
     width: 1440px;
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 .designation::before{
     content: '';
@@ -417,7 +418,8 @@ body{
     font-size: 60px;
     font-weight: 500;
     text-align: center;
-    width: 300px;
+    margin: 0;
+    margin-right: 20px;
     color: #fff;
     letter-spacing: 20px;
 }
@@ -517,9 +519,74 @@ body{
     text-decoration: none;
 }
 
+.landscape-container{
+    max-width: 1440px;
+    margin-top: 170px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.landscape-designation{
+    background: url(../pictures/landcape_background.jpg);
+    justify-content: center;
+    align-items: center;
+}
 
+.landscape__grid{
+    display: grid;
+    grid-template-areas: 'a a a a'
+                         'b b b b'
+                         'c c c c'
+                         'd e f j';
+    column-gap: 20px;
+    row-gap: 25px;
+    margin-top: 100px;
+}
+.landscape__item1, .landscape__item2, .landscape__item3{
+    width: 1240px;
+    height: 230px;
+}
+.landscape__item4, .landscape__item5, .landscape__item6, .landscape__item7{
+    width: 295px;
+    height: 800px;
+}
 
+.landscape__item1{
+    grid-area: a;
+    background: url(../pictures/landscape/landscape_picture1.jpg);
+}
 
+.landscape__item2{
+    grid-area: b;
+    background: url(../pictures/landscape/landscape_picture2.jpg);
+}
+
+.landscape__item3{
+    grid-area: c;
+    background:url(../pictures/landscape/landscape_picture3.jpg);
+}
+
+.landscape__item4{
+    grid-area: d;
+    background: url(../pictures/landscape/landscape_picture4.jpg);
+}
+
+.landscape__item5{
+    grid-area: e;
+    background: url(../pictures/landscape/landscape_picture5.jpg);
+}
+
+.landscape__item6{
+    grid-area: f;
+    background: url(../pictures/landscape/landscape_picture6.jpg);
+}
+.landscape__item7{
+    grid-area: j;
+    background: url(../pictures/landscape/landscape_picture7.jpg);
+}
 
 
 

@@ -521,12 +521,10 @@ body{
 
 .landscape-container{
     max-width: 1440px;
-    margin-top: 170px;
     background: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
     flex-direction: column;
 }
 .landscape-designation{
@@ -588,9 +586,26 @@ body{
     background: url(../pictures/landscape/landscape_picture7.jpg);
 }
 
+.designation-content{
+    height: 0;
+    overflow: hidden;
+    transition: 1s all;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.designation-content-active-1{
+    height: 828px;
+}
+.designation-content-active-2{
+    height: 1913px;
+}
+.designation-content-active-3{
+    height: 2298px;
+}
+
 .portrait-container{
     max-width: 1440px;
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;

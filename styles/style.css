@@ -598,6 +598,9 @@ body{
 .designation-content-active-5{
     height: 1491px;
 }
+.designation-content-active-6{
+    height: 855px;
+}
 
 .portrait-container{
     max-width: 1440px;
@@ -744,7 +747,21 @@ body{
     width: 1240px;
     height: 1225px;
 }
-
+.macro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.macro-designation{
+    background: url(../pictures/macro-background.jpg);
+}
+.macro__item{
+    background: url(../pictures/macro/macro_item.png);
+    margin: 100px;
+    margin-bottom: 0;
+    width: 1240px;
+    height: 855px;
+}
 @font-face {
     font-family: "Euclid"; 
     src: url("../fonts/Euclid-Circular-A-Light.ttf") format("truetype"); 

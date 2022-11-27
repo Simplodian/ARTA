@@ -41,7 +41,9 @@ openGallary.forEach((item, index) => {
       gallary[3].classList.toggle('designation-content-active-4');
     } else if(index == 4){
       gallary[4].classList.toggle('designation-content-active-5');
-    } else{
+    } else if(index == 5){
+      gallary[5].classList.toggle('designation-content-active-6');
+    }else{
       console.log(undefined)
     }
   })

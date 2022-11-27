@@ -278,6 +278,7 @@ body{
 
 .gradient{
     background: linear-gradient(90deg, #9B5E5C, #C3CFE2 100%);
+    background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -328,6 +329,7 @@ body{
 
 .overlay__terms{
     background: linear-gradient(90deg, #9B5E5C 0%, #C3CFE2 100%);
+    background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border-bottom: 1px solid;

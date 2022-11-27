@@ -595,6 +595,9 @@ body{
 .designation-content-active-4{
     height: 1767px;
 }
+.designation-content-active-5{
+    height: 1491px;
+}
 
 .portrait-container{
     max-width: 1440px;
@@ -725,6 +728,21 @@ body{
     margin-bottom: 25px;
     height: 1429px;
     width: 1240px;
+}
+.art-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.art-designation{
+    background: url(../pictures/art_background.jpg);
+}
+.art__item{
+    background: url(../pictures/art/art_item.png);
+    margin: 100px;
+    margin-bottom: 25px;
+    width: 1240px;
+    height: 1225px;
 }
 
 @font-face {

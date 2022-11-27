@@ -32,14 +32,16 @@ const gallary = document.querySelectorAll('.designation-content');
 openGallary.forEach((item, index) => {
   item.addEventListener('click', () => {
     if (index == 0) {
-      gallary[0].classList.toggle('designation-content-active-1')
+      gallary[0].classList.toggle('designation-content-active-1');
     } else if (index == 1) {
       gallary[1].classList.toggle('designation-content-active-2');
     } else if (index == 2) {
-      gallary[2].classList.toggle('designation-content-active-3')
+      gallary[2].classList.toggle('designation-content-active-3');
     } else if (index == 3) {
-      gallary[3].classList.toggle('designation-content-active-4')
-    } else {
+      gallary[3].classList.toggle('designation-content-active-4');
+    } else if(index == 4){
+      gallary[4].classList.toggle('designation-content-active-5');
+    } else{
       console.log(undefined)
     }
   })

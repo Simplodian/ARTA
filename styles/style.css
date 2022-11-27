@@ -400,18 +400,7 @@ body{
     justify-content: end;
     align-items: center;
 }
-.designation::before{
-    content: '';
-	display: block;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color:rgba(0, 0, 0, .5);
-}
+
 .designation__text{
     position: relative;
     font-family: "Euclid";
@@ -603,6 +592,9 @@ body{
 .designation-content-active-3{
     height: 2298px;
 }
+.designation-content-active-4{
+    height: 1767px;
+}
 
 .portrait-container{
     max-width: 1440px;
@@ -617,9 +609,6 @@ body{
     flex-direction: column;
     background: url(../pictures/portrait_background.jpg);
     max-width: 100%;
-}
-.portrait-designation::before{
-    background: none;
 }
 .designation_top{
     width: 1200px;
@@ -722,6 +711,21 @@ body{
     border-radius: 50%;
 }
 
+.architect-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.architect-designation{
+    background: url(../pictures/architect_background.jpg);
+}
+.architect__item{
+    background: url(../pictures/architect/architect_item.png);
+    margin: 100px;
+    margin-bottom: 25px;
+    height: 1429px;
+    width: 1240px;
+}
 
 @font-face {
     font-family: "Euclid"; 

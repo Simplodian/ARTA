@@ -24,3 +24,23 @@ overlaySubmit.onclick = function(){
     alert( 'Ваша заявка обрабатывается!')
   }
 };
+
+
+const openGallary = document.querySelectorAll('.designation');
+const gallary = document.querySelectorAll('.designation-content');
+
+openGallary.forEach((item, index) => {
+  item.addEventListener('click', () => {
+    if (index == 0){
+     gallary[0].classList.toggle('designation-content-active-1')
+    } else if (index == 1) {
+      gallary[1].classList.toggle('designation-content-active-2');
+    } else if ( index == 2){
+      gallary[2].classList.toggle('designation-content-active-3')
+    } else {
+      console.log( undefined )
+    }
+  }) 
+})
+
+console.log(gallary)

@@ -1,276 +1,274 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>ARTA</title>
-    <link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
-</head>
-<body>
-
+    <link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
+  </head>
+  <body>
     <div class="container">
-
-        <header class="header">
-
-                <div class="header-wrapper">
-                    <div class="header__avatar">
-                        <img src="pictures/avatar.jpg" alt="#" class="header__image">
-                    </div>
-                    <nav class="header__navbar">
-                        <ul class="header__list">
-                            <li class="header__item"> 
-                                <a href="#" class="header__link"> Ч/Б ФОРМАТ </a>
-                            </li>
-                            <li class="header__item"> 
-                                <a href="#" class="header__link"> ПЕЙЗАЖ </a>
-                            </li>
-                            <li class="header__item"> 
-                                <a href="#" class="header__link"> ПОРТРЕТ </a>
-                            </li>
-                            <li class="header__item"> 
-                                <a href="#" class="header__link"> ИНТЕРЬЕРНАЯ & АРХИТЕКТУРНАЯ </a>
-                            </li>
-                            <li class="header__item"> 
-                                <a href="#" class="header__link"> АРТ </a>
-                            </li>
-                            <li class="header__item"> 
-                                <a href="#" class="header__link"> МАКРОСЬЕМКА </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <a href="tel:+375297677776" class="header__button"> СВЯЗАТЬСЯ </a>
-                </div>
-
-        </header>
+      <header class="header">
+        <div class="header-wrapper">
+          <div class="header__avatar">
+            <img src="pictures/avatar.jpg" alt="#" class="header__image" />
+          </div>
+          <nav class="header__navbar">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#" class="header__link"> Ч/Б ФОРМАТ </a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link"> ПЕЙЗАЖ </a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link"> ПОРТРЕТ </a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">
+                  ИНТЕРЬЕРНАЯ & АРХИТЕКТУРНАЯ
+                </a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link"> АРТ </a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link"> МАКРОСЬЕМКА </a>
+              </li>
+            </ul>
+          </nav>
+          <a href="tel:+375297677776" class="header__button"> СВЯЗАТЬСЯ </a>
+        </div>
+      </header>
     </div>
-        <main>
-            <div class="container">
-                <div class="about">
-                    <h1 class="tittle">ARTA</h1>
-                    <h2 class="subtittle">
-                        Если Вы хотите пригласить меня в качестве фотографа, оставьте заявку на вашу фотосессию. Расскажите о вашем событии, месте, опишите все пожелания и предпочтения, которые у вас есть
-                    </h2>
-                    <button class="submit"> ОСТАВИТЬ ЗАЯВКУ </button>
+    <main>
+      <div class="container">
+        <div class="about">
+          <h1 class="tittle">ARTA</h1>
+          <h2 class="subtittle">
+            Если Вы хотите пригласить меня в качестве фотографа, оставьте заявку
+            на вашу фотосессию. Расскажите о вашем событии, месте, опишите все
+            пожелания и предпочтения, которые у вас есть
+          </h2>
+          <button class="submit">ОСТАВИТЬ ЗАЯВКУ</button>
+        </div>
+
+        <div class="achivements">
+          <ul class="achivements__list">
+            <li class="achivements__item">
+              <span class="bold">4K+</span> <br />
+              ДОВОЛЬНЫХ КЛИЕНТОВ
+            </li>
+            <li class="achivements__item">
+              <span class="bold">30+</span> <br />
+              ФОТОПЛОЩАДОК
+            </li>
+            <li class="achivements__item">
+              <span class="bold">1K+</span> <br />
+              РАБОТ В ПОРТФОЛИО
+            </li>
+          </ul>
+        </div>
+
+        <div class="side-bar">
+          <div class="side-bar__item">
+            <a href="#" class="sidebar__link inst">
+              <!-- <img src="icons/insta.svg" alt="#" class="side-bar__logo"> -->
+            </a>
+          </div>
+          <hr class="side-bar__line" />
+          <div class="side-bar__item">
+            <a href="#" class="side-bar__link pinterest">
+              <!-- <img src="icons/pinterest.svg" alt="#" class="side-bar__logo"> -->
+            </a>
+          </div>
+        </div>
+
+        <div class="callback">
+          <div class="overlay">
+            <div class="overlay__close-btn">
+              <img
+                src="icons/close_icon.svg"
+                alt="#"
+                class="overlay__close-icon"
+              />
+            </div>
+            <p class="overlay__tittle">
+              Хотите, <span class="gradient">бесплатно</span> перезвоним Вам за
+              5 минут?
+            </p>
+            <p class="overlay__subtittle">
+              мы поможем с выбором даты и ответим на все интересующие Вас
+              вопросы
+            </p>
+            <form action="" class="overlay__form">
+              <input
+                type="tel"
+                placeholder="+375 (_ _)_ _ _-_ _-_ _"
+                class="overlay__number"
+                pattern="\s{0,}\+{1,1}375\s{0,}\({0,1}(([2]{1}([5]{1}|[9]{1}))|([3]{1}[3]{1})|([4]{1}[4]{1}))\)\s{0,}[0-9]{3,3}\s{0,}[0-9]{4,4}"
+              />
+              <p class="overlay__caption">
+                Согласен на обработку персональных данных принимаю условия
+                <a href="#" class="overlay__terms">
+                  Пользовательского соглашения</a
+                >
+              </p>
+              <input
+                type="submit"
+                value="Позвоните мне"
+                class="overlay__submit"
+              />
+            </form>
+            <a href="#" class="overlay__link"> выбрать другое время </a>
+          </div>
+        </div>
+      </div>
+
+      <section class="b-w">
+        <div class="container b-w-container">
+          <div class="designation">
+            <h2 class="designation__text">black<br />&<br />white</h2>
+          </div>
+          <div class="designation-content">
+            <div class="b-w__grid">
+              <div class="b-w__item item1"></div>
+              <div class="b-w__item item2"></div>
+              <div class="b-w__item item3">
+                <div class="b-w__sub-item sub-item1"></div>
+                <div class="b-w__sub-item sub-item2"></div>
+                <div class="b-w__sub-item sub-item3"></div>
+              </div>
+              <div class="b-w__item item4"></div>
+              <div class="b-w__item item5"></div>
+              <div class="b-w__item item6"></div>
+              <div class="b-w__item item7"></div>
+              <div class="b-w__item item8"></div>
+            </div>
+
+            <div class="central-line"></div>
+
+            <div class="social-info">
+              <p class="social-info__text">
+                больше фото в
+                <a href="#" class="social-info__link"> instagram </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="landscape">
+        <div class="container landscape-container">
+          <div class="designation landscape-designation">
+            <h2 class="designation__text">LANDSCAPE</h2>
+          </div>
+          <div class="designation-content">
+            <div class="landscape__grid">
+              <div class="landscape__item landscape__item1"></div>
+              <div class="landscape__item landscape__item2"></div>
+              <div class="landscape__item landscape__item3"></div>
+              <div class="landscape__item landscape__item4"></div>
+              <div class="landscape__item landscape__item5"></div>
+              <div class="landscape__item landscape__item6"></div>
+              <div class="landscape__item landscape__item7"></div>
+            </div>
+
+            <div class="central-line"></div>
+
+            <div class="social-info">
+              <p class="social-info__text">
+                больше завораживающих пейзажей на
+                <a href="#" class="social-info__link"> pinterest </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portrait">
+        <div class="container portrait-container">
+          <div class="designation portrait-designation">
+            <div class="designation_top">
+              <h2 class="designation__text portrait-text">PORT</h2>
+            </div>
+            <div class="designation_bottom">
+              <h2 class="designation__text portrait-text">RAIT</h2>
+            </div>
+          </div>
+          <div class="designation-content">
+            <div class="portrait__grid">
+              <div class="portrait__item portrait__item1">
+                <div class="portrait__subitem subitem1">
+                  <div class="portrait__item portrait__item7"></div>
                 </div>
-
-                <div class="achivements">
-                    <ul class="achivements__list">
-                        <li class="achivements__item"> <span class="bold">4K+</span> <br> ДОВОЛЬНЫХ КЛИЕНТОВ </li>
-                        <li class="achivements__item"> <span class="bold">30+</span> <br> ФОТОПЛОЩАДОК</li>
-                        <li class="achivements__item"> <span class="bold">1K+</span> <br> РАБОТ В ПОРТФОЛИО </li>
-                    </ul>
+                <div class="portrait__subitem subitem2">
+                  <div class="portrait__item portrait__item8"></div>
                 </div>
+              </div>
+              <div class="portrait__item portrait__item2"></div>
+              <div class="portrait__item portrait__item3"></div>
+              <div class="portrait__item portrait__item4">
+                <div class="portrait__item portrait__item9"></div>
+              </div>
+              <div class="portrait__item portrait__item5">
+                <div class="portrait__item portrait__item10"></div>
+              </div>
+              <div class="portrait__item portrait__item6"></div>
+            </div>
 
-                <div class="side-bar">
-                    <div class="side-bar__item">
-                        <a href="#" class="sidebar__link inst">
-                            <!-- <img src="icons/insta.svg" alt="#" class="side-bar__logo"> -->
-                        </a>
-                    </div>
-                    <hr class="side-bar__line">
-                    <div class="side-bar__item">
-                        <a href="#" class="side-bar__link pinterest">
-                            <!-- <img src="icons/pinterest.svg" alt="#" class="side-bar__logo"> -->
-                        </a>
-                    </div>
-                </div>
+            <div class="central-line"></div>
 
-                <div class="callback">
-                    <div class="overlay">
-                        <div class="overlay__close-btn">
-                            <img src="icons/close_icon.svg" alt="#" class="overlay__close-icon">
-                        </div>
-                        <p class="overlay__tittle"> Хотите, <span class="gradient">бесплатно</span> перезвоним Вам за 5 минут? </p>
-                        <p class="overlay__subtittle"> мы поможем с выбором даты и ответим на все интересующие Вас вопросы </p>
-                        <form action="" class="overlay__form">
-                            <input type="tel" placeholder="+375 (_ _)_ _ _-_ _-_ _" class="overlay__number" pattern="\s{0,}\+{1,1}375\s{0,}\({0,1}(([2]{1}([5]{1}|[9]{1}))|([3]{1}[3]{1})|([4]{1}[4]{1}))\)\s{0,}[0-9]{3,3}\s{0,}[0-9]{4,4}">
-                            <p class="overlay__caption"> Согласен на обработку персональных данных
-                                принимаю условия <a href="#" class="overlay__terms"> Пользовательского соглашения</a> </p>
-                            <input type='submit' value="Позвоните мне" class="overlay__submit">
-                        </form>
-                        <a href="#" class="overlay__link"> выбрать другое время </a>
-                    </div>
-                </div>
-                </div>
-
-
-                <section class="b-w">
-
-                    <div class="container b-w-container">
-
-                        <div class="designation">
-                            <h2 class="designation__text">black<br>&<br>white</h2>
-                        </div>
-                        <div class="designation-content">
-                        <div class="b-w__grid">
-                            <div class="b-w__item item1"></div>
-                            <div class="b-w__item item2"></div>
-                            <div class="b-w__item item3">
-                                <div class="b-w__sub-item sub-item1"></div>
-                                <div class="b-w__sub-item sub-item2"></div>
-                                <div class="b-w__sub-item sub-item3"></div>
-                            </div>
-                            <div class="b-w__item item4"></div>
-                            <div class="b-w__item item5"></div>
-                            <div class="b-w__item item6"></div>
-                            <div class="b-w__item item7"></div>
-                            <div class="b-w__item item8"></div>
-                        </div>
-
-                        <div class="central-line"></div>
-
-                        <div class="social-info">
-                            <p class="social-info__text">
-                                больше фото в 
-                                <a href="#" class="social-info__link"> 
-                                    instagram
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-
-                    </div>
-
-                </section>
-                <section class="landscape">
-                    <div class="container landscape-container">
-
-                        <div class="designation landscape-designation">
-                            <h2 class="designation__text">
-                                LANDSCAPE
-                            </h2>
-                        </div>
-                        <div class="designation-content">
-                        <div class="landscape__grid">
-                            <div class="landscape__item landscape__item1"></div>
-                            <div class="landscape__item landscape__item2"></div>
-                            <div class="landscape__item landscape__item3"></div>
-                            <div class="landscape__item landscape__item4"></div>
-                            <div class="landscape__item landscape__item5"></div>
-                            <div class="landscape__item landscape__item6"></div>
-                            <div class="landscape__item landscape__item7"></div>
-                        </div>
-
-                        <div class="central-line"></div>
-
-                        <div class="social-info">
-                            <p class="social-info__text">
-                                больше завораживающих пейзажей на 
-                                <a href="#" class="social-info__link"> 
-                                    pinterest
-                                </a>
-                            </p>
-                        </div>
-
-                    </div>
-
-                    </div>
-                </section>
-                
-                <section class="portrait">
-                    
-                    <div class="container portrait-container">
-
-                        <div class="designation portrait-designation">
-                            <div class="designation_top">
-                                <h2 class="designation__text portrait-text">PORT</h2>
-                            </div>
-                            <div class="designation_bottom">
-                                <h2 class="designation__text portrait-text">RAIT</h2>
-                            </div>
-                        </div>
-                        <div class="designation-content">
-                        <div class="portrait__grid">
-                            <div class="portrait__item portrait__item1">
-                                <div class="portrait__subitem subitem1">
-                                    <div class="portrait__item portrait__item7"></div>
-                                </div>
-                                <div class="portrait__subitem subitem2">
-                                    <div class="portrait__item portrait__item8"></div>
-                                </div>
-
-                            </div>
-                            <div class="portrait__item portrait__item2"></div>
-                            <div class="portrait__item portrait__item3"></div>
-                            <div class="portrait__item portrait__item4">
-                                <div class="portrait__item portrait__item9"></div>
-                            </div>
-                            <div class="portrait__item portrait__item5">
-                                <div class="portrait__item portrait__item10"></div>
-                            </div>
-                            <div class="portrait__item portrait__item6"></div>
-                        </div>
-
-                         <div class="central-line"></div>
-
-                            <div class="social-info">
-                                <p class="social-info__text">
-                                    больше красивых людей на 
-                                    <a href="#" class="social-info__link"> 
-                                        youtube
-                                    </a>
-                                </p>
-                            </div>
-             
-                        </div>
-                        </div>
-                                    
-
-                </section>
-                <section class="architect">
-                <div class="container architect-container">
-                    <div class="designation architect-designation">
-                        
-                    </div>
-                        <div class="designation-content">
-                            <div class="architect__item"></div>
-                            <div class="central-line"></div>
-                            <div class="social-info">
-                                <p class="social-info__text">
-                                    больше архитектурных решений в 
-                                    <a href="#" class="social-info__link"> 
-                                        twitter
-                                    </a>
-                                </p>
-                            </div>
-                        </div> 
-                </div>
-                </section>
-                <section class="art">
-                    <div class="container art-container">
-                        <div class="designation art-designation">
-                            
-                        </div>
-                            <div class="designation-content">
-                                <div class="art__item"></div>
-                                <div class="central-line"></div>
-                                <div class="social-info">
-                                    <p class="social-info__text">
-                                        больше искусства в 
-                                        <a href="#" class="social-info__link"> 
-                                            instagram
-                                        </a>
-                                    </p>
-                                </div>
-                            </div> 
-                    </div>
-                    </section>
-                    <section class="macro">
-                        <div class="container macro-container">
-                            <div class="designation macro-designation">
-                                
-                            </div>
-                                <div class="designation-content">
-                                    <div class="macro__item"></div>
-                                </div> 
-                        </div>
-                        </section>
-        </main>
-
-    </div>
+            <div class="social-info">
+              <p class="social-info__text">
+                больше красивых людей на
+                <a href="#" class="social-info__link"> youtube </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="architect">
+        <div class="container architect-container">
+          <div class="designation architect-designation"></div>
+          <div class="designation-content">
+            <div class="architect__item"></div>
+            <div class="central-line"></div>
+            <div class="social-info">
+              <p class="social-info__text">
+                больше архитектурных решений в
+                <a href="#" class="social-info__link"> twitter </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="art">
+        <div class="container art-container">
+          <div class="designation art-designation"></div>
+          <div class="designation-content">
+            <div class="art__item"></div>
+            <div class="central-line"></div>
+            <div class="social-info">
+              <p class="social-info__text">
+                больше искусства в
+                <a href="#" class="social-info__link"> instagram </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="macro">
+        <div class="container macro-container">
+          <div class="designation macro-designation"></div>
+          <div class="designation-content">
+            <div class="macro__item"></div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script src="script/script.js"></script>
-</body>
+  </body>
 </html>
